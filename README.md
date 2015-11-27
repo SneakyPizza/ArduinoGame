@@ -15,14 +15,13 @@ Required items:
 
 1x 	any Computer  
 
+
 Steps:
 
 
 1. put the Joysticks to the Placement-board 
-//Add photo of the joysticks on the placement board
 
 2. Then Connect the wires in the order that is shown on the photo
-//Add blueprint
 
 3. Connect the Arduino to your Computer
 
@@ -36,4 +35,9 @@ Steps:
 
 8. Boot Unity3D
 
-9. 
+9. Open the given Unity3D project within this github
+
+10. Now Open: "SerialPortUnity.cs"
+
+11. Read the comments within the script
+
