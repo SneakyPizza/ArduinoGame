@@ -16,13 +16,15 @@ void loop() {
   UD2 = analogRead(A2);
   LR2 = analogRead(A3);
   
-  //The 4 way joystick will send values via these serial prints.
+  //The first 4 way joystick will send values via these serial prints.
   Serial.print(UD, DEC); //The UD being the horizontal axis in DEC(Decimal) numbers.
-  Serial.print(",");
+  Serial.print(","); //We will use this "," for splitting the Horizontal axis and the Vertical axis.
   Serial.print(LR, DEC);   //The LR being the vertical axis in DEC(Decimal) numbers.
+  
+  //We will use this "," for splitting the 2 joysticks apart inside the unity engine.
   Serial.print(",");
   
-  //Second 4 way joystick.
+ //The second 4 way joystick will send values via these serial prints.
   Serial.print(UD2, DEC);
   Serial.print(",");
   Serial.print(LR2, DEC);
