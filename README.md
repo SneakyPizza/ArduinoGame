@@ -19,13 +19,9 @@ Required items:
 Steps:
 
 
-1. put the Joysticks to the Placement-board 
+1. put the Joysticks to the Placement-board.  Link: http://imgur.com/XcCmni8
 
-Link: http://imgur.com/XcCmni8
-
-2. Then Connect the wires in the order that is shown on the photo
-
-Link: http://imgur.com/sHoy2oU
+2. Then Connect the wires in the order that is shown on the photo.  Link: http://imgur.com/sHoy2oU
 
 3. Connect the Arduino to your Computer
 
